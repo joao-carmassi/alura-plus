@@ -115,7 +115,6 @@ main {
     font-size: var(--tamanho-fonte-conteudo);
     width: 588px;
     margin: 0 0 0 18%;
-    gap: 16px;
 }
 
 .container3__container_imagem {
