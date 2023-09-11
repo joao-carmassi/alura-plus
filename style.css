@@ -9,6 +9,7 @@
     --fonte: 'Inter', sans-serif;;
 
     --tamanho-fonte-titulo: 1.75rem;
+    --tamanho-fonte-titulo1: 3rem;
     --tamanho-fonte-conteudo: 1rem;
 }
 
@@ -40,7 +41,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 15% 11%;
+    margin: 16% 11%;
     width: 77%;
 }
 
@@ -84,4 +85,45 @@ main {
 .container__aviso {
     font-size: 0.75rem;
     color: var(--cor-secundaria-texto);
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100vh;
+    align-items: center;
+    margin: 0 12%;
+}
+
+.container2__titulo {
+    font-size: var(--tamanho-fonte-titulo1);
+    margin-bottom: 8px;
+}
+
+.container2__conteudo {
+    font-size: var(--tamanho-fonte-conteudo);
+}
+
+.container3 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    height: 70vh;
+}
+
+.container3__conteudo {
+    font-size: var(--tamanho-fonte-conteudo);
+    width: 588px;
+    margin: 0 0 0 18%;
+    gap: 16px;
+}
+
+.container3__container_imagem {
+    margin: 20px;
+}
+
+.container3__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
