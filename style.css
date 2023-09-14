@@ -75,6 +75,11 @@ main {
     padding: 7.5%;
     width: 230.5%;
     border-radius: 8px;
+    transition-duration: 0.1s;
+}
+
+.container1__botoes__botao:hover {
+    transform: scale(1.05);
 }
 
 .botao_secundario {
@@ -142,6 +147,11 @@ main {
 .botao_menor {
     width: 28%;
     padding: 2.5% 0;
+    text-align: center;
+}
+
+.botao_menor:hover {
+    transform: scale(1.08);
 }
 
 .container3__img {
