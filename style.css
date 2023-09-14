@@ -239,6 +239,15 @@ main {
     max-width: auto;
 }
 
+.container_footer__lista__links {
+    text-decoration: none;
+    color: var(--cor-secundaria-texto);
+}
+
+.container_footer__lista__links:hover {
+    text-decoration: underline;
+}
+
 .footer__conteudo {
     box-sizing: border-box;
     text-align: center;
