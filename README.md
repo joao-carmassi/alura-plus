@@ -9,7 +9,7 @@
 * CSS
 
 ## Link:
-https://joao-carmassi.github.io/Alura-Plus/
+https://joao-carmassi.github.io/alura-plus/
 
 ## Obs:
 <p>Pagina não possue responsibilidade.</p>
